@@ -12,5 +12,4 @@
              if ($value % 2 !== 0 && is_int($value) === true) {
                   $odd[] = $value;
               }
-          }
- ?>         
+          }        
