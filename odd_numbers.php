@@ -4,7 +4,6 @@ function odd_numbers($input){
   $array = array_filter($input, "number");
   $oddNumber = array_filter($array, "odd");
   $win = sort($oddNumber);
-
   return $oddNumber;
 }
 
@@ -15,7 +14,7 @@ function number($n){
     } else {
       return false;
     }
-  } 
+}
 
 // returns whether the integer is odd
 function odd($var){
@@ -24,7 +23,5 @@ function odd($var){
     } else {
       return false;
     }
-  }
 }
-
 ?>
