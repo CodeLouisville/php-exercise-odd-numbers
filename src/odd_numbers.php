@@ -1,6 +1,6 @@
 <?PHP
 
-function odd_numbers($input){
+function odd_numbers(array $input){
 	if(is_array($input)){
 		$output = array();
 		foreach($input as $in){
@@ -15,4 +15,4 @@ function odd_numbers($input){
 	}
 }
 
- var_dump(odd_numbers(['a', 111]));
+ //var_dump(odd_numbers(['a', 111]));
