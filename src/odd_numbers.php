@@ -9,7 +9,7 @@ function odd_numbers(array $array) {
         }
     }
     
-    asort($odd_array);
+    sort($odd_array);
     
     return $odd_array;
 }
