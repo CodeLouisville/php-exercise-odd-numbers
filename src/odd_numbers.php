@@ -6,7 +6,7 @@ function odd_numbers($array){
 
   foreach($array as $value){
     if ($value !=0 && is_int($value)){
-     if (($value % 2)**2 ==1 ){
+     if (($value % 2) ==1 || -1){
      $output[]=$value;
     }
    }
